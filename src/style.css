@@ -25,3 +25,27 @@ ul {
   li a:hover {
     background-color: rgb(41, 199,67);
   }
+  /* height ='100%'width='100%'  */
+ .container2 {
+  background-color: white;
+  float: left;
+  width: 75%;
+  height: 100%;
+  padding-left: 30px;
+}
+.container3{
+  float: right;
+  width: 22%;
+  height: 100%;
+  padding-left: 10px;
+  text-align: justify;
+}
+.arrange{
+  margin-top: 20px;
+  padding-right: 10px;
+  text-align: justify;
+}
+.cont{
+overflow: hidden;
+display: flex;
+}
