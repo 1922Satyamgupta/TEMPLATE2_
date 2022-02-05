@@ -25,27 +25,48 @@ ul {
   li a:hover {
     background-color: rgb(41, 199,67);
   }
+  .container{
+      background-color: rgb(216,216,216);
+      width: auto;
+      height: 70px;
+      font-size: 30px;
+      padding-left: 15px;
+      padding-bottom: 3px;
+      /* margin-bottom: 20px; */
+  }
   /* height ='100%'width='100%'  */
  .container2 {
-  background-color: white;
-  float: left;
-  width: 75%;
-  height: 100%;
-  padding-left: 30px;
-}
-.container3{
-  float: right;
-  width: 22%;
-  height: 100%;
-  padding-left: 10px;
-  text-align: justify;
-}
+     background-color: white;
+     float: left;
+     width: 75%;
+     height: 100%;
+     padding-left: 30px;
+ }
+ .container3{
+     float: right;
+     width: 22%;
+     height: 100%;
+     padding-left: 10px;
+     text-align: justify;
+ }
 .arrange{
-  margin-top: 20px;
-  padding-right: 10px;
-  text-align: justify;
-}
+     margin-top: 20px;
+     padding-right: 10px;
+     text-align: justify;
+ }
 .cont{
-overflow: hidden;
-display: flex;
+  overflow: hidden;
+  display: flex;
+}
+footer{
+    position:relative;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+    background-color: rgb(128,128,128);
+    text-align: right;
+    padding-top:1%;
+    padding-bottom:1%;
+    color:rgb(128,128,128); 
+    text-align: right;
 }
